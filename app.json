@@ -14,7 +14,12 @@
     "android": {
       "package": "br.com.fiap.alertacorrego"
     },
-    "plugins": ["expo-router", "expo-sqlite"],
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-asset",
+      "expo-font"
+    ],
     "experiments": {
       "typedRoutes": false
     }

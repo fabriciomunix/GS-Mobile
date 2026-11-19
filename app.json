@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Alerta Córrego",
+    "slug": "alerta-corrego",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "alertacorrego",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.fiap.alertacorrego"
+    },
+    "android": {
+      "package": "br.com.fiap.alertacorrego"
+    },
+    "plugins": ["expo-router", "expo-sqlite"],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
